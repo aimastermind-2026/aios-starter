@@ -1,0 +1,20 @@
+# Secrets: never commit
+.env
+.env.*
+!.env.example
+
+# Private working records (stay on this computer)
+brainstorms/
+audits/
+
+# Local settings and system files
+.claude/settings.local.json
+.DS_Store
+*.log
+__pycache__/
+node_modules/
+
+# Obsidian
+.obsidian/workspace*.json
+.obsidian/cache
+.trash/
